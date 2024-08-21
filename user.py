@@ -4,6 +4,17 @@
 import sqlite3 
 import csv 
 
+# now we push this file in github
+# git is a version control system.
+# git hub helps us to keep track of the program
+# SOME GIT COMMANDS:- 
+# git init
+# git add .
+# git commit -m"Your commit message"
+# git push origin main
+# git diff
+
+
 # Function to create a connection to the sqlite database.
 def create_connection():
     try:
@@ -207,12 +218,3 @@ def main():
 if __name__ ==  "__main__":
     main() # executes the main function when the script is run
 
-# now we push this file in github
-# git is a version control system.
-# git hub helps us to keep track of the program
-# SOME GIT COMMANDS:- 
-# git init
-# git add .
-# git commit -m"Your commit message"
-# git push origin main
-# git diff
